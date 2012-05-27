@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.Browse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textFile = new System.Windows.Forms.TextBox();
@@ -42,8 +44,11 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Identify = new System.Windows.Forms.Button();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.contextMenuStrip2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // Browse
@@ -98,7 +103,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(353, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(768, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -144,21 +149,47 @@
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.optionsToolStripMenuItem.Text = "Options";
             // 
+            // Identify
+            // 
+            this.Identify.Location = new System.Drawing.Point(360, 28);
+            this.Identify.Name = "Identify";
+            this.Identify.Size = new System.Drawing.Size(125, 46);
+            this.Identify.TabIndex = 5;
+            this.Identify.Text = "Identify";
+            this.Identify.UseVisualStyleBackColor = true;
+            this.Identify.Click += new System.EventHandler(this.Identify_Click);
+            // 
+            // chart1
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(19, 92);
+            this.chart1.Name = "chart1";
+            this.chart1.Size = new System.Drawing.Size(726, 371);
+            this.chart1.TabIndex = 6;
+            this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 147);
+            this.ClientSize = new System.Drawing.Size(768, 475);
+            this.Controls.Add(this.chart1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.textFile);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Browse);
+            this.Controls.Add(this.Identify);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "main";
             this.Text = "Peak Identifier v0.1";
             this.contextMenuStrip2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,6 +210,8 @@
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Button Identify;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
 }
 
