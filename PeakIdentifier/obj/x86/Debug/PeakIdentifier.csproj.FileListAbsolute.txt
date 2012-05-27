@@ -1,0 +1,9 @@
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\bin\Debug\PeakIdentifier.exe
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\bin\Debug\PeakIdentifier.pdb
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\obj\x86\Debug\PeakIdentifier.main.resources
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\obj\x86\Debug\PeakIdentifier.Properties.Resources.resources
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\obj\x86\Debug\PeakIdentifier.exe
+C:\Users\vlad_ko\Desktop\PeakIdentifier\PeakIdentifier\obj\x86\Debug\PeakIdentifier.pdb
