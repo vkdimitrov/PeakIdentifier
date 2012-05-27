@@ -52,6 +52,7 @@ namespace PeakIdentifier
             for (int i = 0; i <10; i++)
             {
                 //MessageBox.Show(Spectrum.spectrum.ElementAt(i).ToString());
+                //12
             }
         }
     }
